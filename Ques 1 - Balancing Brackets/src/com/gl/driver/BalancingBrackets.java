@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class BalancingBrackets {
 
-	private final static Stack<Character> stack = new Stack<Character>();
+	private static final Stack<Character> stack = new Stack<Character>();
 
 	//Function to check brackets String is Balanced 
 	public static boolean checkBracketBalanced(String expression) {
